@@ -16,6 +16,18 @@ gem 'jquery-rails'
 # To use ActiveModel has_secure_password
 gem 'bcrypt-ruby', '~> 3.0.0'
 
+group :development do
 
-# Use unicorn as the app server
-gem 'unicorn'
+end
+
+group :test do
+
+end
+
+group :development, :test do
+  gem 'thin'
+end
+
+group :production, :staging do
+  gem 'unicorn'
+end
