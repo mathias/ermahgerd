@@ -13,6 +13,8 @@ placeholder :path do
       '/'
     when 'posts'
       '/posts'
+    when 'new post'
+      '/posts/new'
     else
       '/'
     end

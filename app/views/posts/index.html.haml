@@ -1,3 +1,5 @@
 %h1 Posts
 %ul
-  = render partial: 'list_post', collection: posts
+  = render partial: 'list_post', collection: @posts
+= link_to 'Add new post', new_post_path
+
