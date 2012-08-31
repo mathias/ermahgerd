@@ -1,3 +1,5 @@
 %h1= @post.title
 
-= @post.body
+%p= @post.body
+
+= link_to 'Back to list', posts_path
