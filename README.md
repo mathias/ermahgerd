@@ -2,6 +2,8 @@
 
 Dev teams should communicate more. Often, what we need to say should not be exposed to the client, or to the public. For that reason, I'm building `ermahgerd` as a private blogging engine for development teams.
 
+![nerd blergs!](http://i.imgur.com/r6Blx.jpg)
+
 ## Goals:
 
 * Low Maintanence: Easy to setup and configure
