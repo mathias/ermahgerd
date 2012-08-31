@@ -1,6 +1,6 @@
 %li.post
   = link_to list_post.title, list_post
   = link_to "Edit", edit_post_path(list_post)
-  = button_to "Destroy", list_post, :confirm => 'Are you sure you want to delete this post?', :method => :delete
+  = link_to "Destroy", list_post, :confirm => 'Are you sure you want to delete this post?', :method => :delete
   %p
     = truncate(list_post.body, length: 500)
