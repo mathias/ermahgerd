@@ -39,4 +39,5 @@ RSpec.configure do |config|
   config.order = "random"
 
   config.filter_run_excluding :wip => true
+  config.include FactoryGirl::Syntax::Methods
 end

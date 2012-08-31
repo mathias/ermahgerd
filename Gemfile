@@ -13,11 +13,11 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
+gem 'bcrypt-ruby', '~> 3.0.0'
+gem 'decent_exposure'
+gem 'formtastic'
 gem 'jquery-rails'
 gem 'haml-rails'
-
-# To use ActiveModel has_secure_password
-gem 'bcrypt-ruby', '~> 3.0.0'
 
 group :development do
 
@@ -31,6 +31,7 @@ end
 group :development, :test do
   gem 'capybara'
   gem 'factory_girl_rails'
+  gem 'faker'
   gem 'pry-rails'
   gem 'rspec-rails'
   gem 'thin'

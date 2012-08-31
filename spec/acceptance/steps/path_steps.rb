@@ -11,6 +11,10 @@ placeholder :path do
     case path
     when 'home'
       '/'
+    when 'posts'
+      '/posts'
+    else
+      '/'
     end
   end
 end
