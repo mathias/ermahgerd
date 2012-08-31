@@ -1,0 +1,14 @@
+common: &COMMON
+  adapter: postgresql
+  encoding: utf8
+  host: localhost
+  min_messages: warning
+  pool: 5
+
+development:
+  <<: *COMMON
+  database: ermahgerd_development
+
+test:
+  <<: *COMMON
+  database: ermahgerd_test
